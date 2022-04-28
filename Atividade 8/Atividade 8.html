@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade8</title>
+
+<body>
+	<script>
+	var i = parseInt  ("0");
+	var idadeTotal = parseInt ("0");
+	var maisVelha = parseInt ("0");
+	var idade = parseInt ("0");
+	var maisNova = idade;
+	var pessimo = parseInt ("0");
+	var bomOtimo = parseInt ("0");
+	
+	for(i = 0; i < 4; i++){ 
+		var idade = parseInt (prompt("Idade: "));
+		var sexo = parseInt (prompt("Masculino(1) ou Feminino(2)?"));
+		var opiniao = parseInt (prompt("Ótimo(4), Bom(3), Ruim(2) ou Péssimo(1)?"));
+		
+		idadeTotal = idadeTotal + idade;
+		
+		if (opiniao == 4 || opiniao == 3){
+			bomOtimo = bomOtimo + 1;
+		}
+		
+		if(opiniao == 1){
+			var pessimo = pessimo + 1;
+		}
+		
+		if(idade > maisVelha){
+			maisVelha = idade;
+		}
+		
+		if(idade < maisNova){
+			maisNova = idade;
+		}
+		console.log(i);
+	}
+	
+	var porcBomOtimo = (bomOtimo / i) * 100;
+	var media = idadeTotal / i;
+	var qntd = i;
+	
+	alert("Média de idade: " + media + "\n" + "Maior idade: " + maisVelha + "\n" + "Menor idade: " + maisNova + "\n" + "Nº Péssimo: " + pessimo + "\n" + "% Bom ou Ótimo: " + bomOtimo + "\n" + "Homems + Mulheres: " + qntd);
+	
+
+</script>
+</body>
+</head>
+</html>
