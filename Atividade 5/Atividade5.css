@@ -1,0 +1,53 @@
+:root {
+    --margin: 25px;
+}
+
+header h1 a {
+	background-color: #98FB98;
+	color: #000000;
+	font-size: xxx-large;
+	margin-left:500px;
+	font-family: Arial black;
+}
+
+.clear { 
+	clear: both;
+}
+
+footer {
+	background-color: #98FB98;
+	font-size: 16px;
+	text-align: center;
+}
+
+body {
+	background: #00BFFF url(OP01.jpg);
+    background-repeat: repeat;
+	line-height: 2.5;
+    padding: 15px;
+	font-size: 25px;
+	font-family: Times new roman;
+	color: #4B0082;
+}
+
+.container-box {
+    display: flex; 
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.a {
+    width: calc((100%/3) - (var(--margin)* 3));
+}
+
+.b {
+    width: calc((100%/3) - (var(--margin)* 3));
+}
+
+.box {
+    background-color: #B0E0E6;
+    border-radius: 0px;
+    margin: var(--margin);
+    height: 200px;
+}
+

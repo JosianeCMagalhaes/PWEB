@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade5</title>
+    <link rel="stylesheet" href="Atividade5.css">
+</head>
+
+<header>
+    <h1><a><em>Marketing Digital</em></a></h1>
+</header>
+
+
+<body>
+    <div class="container-box">
+        <div class="box a"><b><center>As melhores plataformas para produtores e afiliados</b></div>
+        <div class="box a"><b><center>Ferramentas de conversão</b></div>
+        <div class="box a"><b><center>Landing Page</b></div>
+        <div class="box a"><b><center>Como atrair clientes</b></div>
+        <div class="box b"><b><center>Trafego pago ou orgânico</b></div>
+        <div class="box b"><b><center>Lançamentos de 1º Semestre de 2022!</b></div>
+    </div>
+	
+</body>
+
+    <footer class='clear'>
+        <p><strong>Atividade 5 de HTML - 2022</strong></p>
+    </footer>
+
+</html>
